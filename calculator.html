@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elegant Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="background-scene"></div>
+    
+    <div class="calculator-container">
+        <button class="theme-toggle" id="themeToggle">🌙</button>
+        <button class="history-toggle" id="historyToggle">📋</button>
+        
+        <div class="history-panel" id="historyPanel">
+            <h3 style="color: var(--text-color); margin-bottom: 10px;">Calculation History</h3>
+            <div id="historyList"></div>
+        </div>
+        
+        <div class="display">
+            <div class="calculator-title">Elegant Calculator</div>
+            <div class="history" id="history"></div>
+            <div class="result" id="result">0</div>
+        </div>
+        
+        <div class="buttons">
+            <button class="clear" id="clear">C</button>
+            <button class="clear-entry" id="clearEntry">CE</button>
+            <button class="special" id="percent">%</button>
+            <button class="special" id="squareRoot">√</button>
+            
+            <button class="number">7</button>
+            <button class="number">8</button>
+            <button class="number">9</button>
+            <button class="operator">/</button>
+            
+            <button class="number">4</button>
+            <button class="number">5</button>
+            <button class="number">6</button>
+            <button class="operator">*</button>
+            
+            <button class="number">1</button>
+            <button class="number">2</button>
+            <button class="number">3</button>
+            <button class="operator">-</button>
+            
+            <button class="number">0</button>
+            <button class="number">.</button>
+            <button class="special" id="cubeRoot">∛</button>
+            <button class="operator">+</button>
+            
+            <button class="special" id="square">x²</button>
+            <button class="clear-history" id="clearHistory">Clear History</button>
+            <button class="equals" id="equals">=</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
